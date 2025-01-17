@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MyNotes</title>
+        <meta charset="utf-8">
+        <meta title="author" description="Deniel">
+        <link rel="icon" href="icon.png" type="image/png">
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+
+    <body onload="renderPage()">
+        <div class="sidebar">
+            <h2 id="side_menu_title">
+                Notes
+            </h2>
+            <button class="add_new_note" onclick="createNote()">+ Add New Note</button>       
+            <div id="scroll_menu">
+
+            </div>
+        </div>
+        
+        <main id="main_section">
+            <img src="icon.png" height="200px" >
+            <h1>MyNotes</h1>
+            <div>A programm that allows you to write and save notes in your web browser!</div>
+        </main>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/scriptEditor.js"></script>
+    </body>
+</html>
